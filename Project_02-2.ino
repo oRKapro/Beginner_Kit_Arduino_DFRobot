@@ -18,7 +18,7 @@ void loop() {
   //100 milliseconds delay between of each letter
   delay(100);
 
-  //3 quick blinks to represent “O”
+  //3 long blinks to represent “O”
   for(int x=0;x<3;x++){
     digitalWrite(ledPin,HIGH);      //configure LED on
     delay(400);                     //delay 400 milliseconds
